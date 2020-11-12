@@ -3,7 +3,10 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="./style/main.css">
+        <!-- style owl carrossel -->
+        <link rel="stylesheet" href="./style/owl/owl.carousel.min.css">
+        <link rel="stylesheet" href="./style/owl/owl.theme.default.min.css">
         <title>NETFLIX FAKE</title>
     </head>
     <body>
@@ -28,8 +31,11 @@
                     </h3>
                     <p class="descricao">
                         Uma órfã prodígio do xadrez luta contra vícios enquanto enfrenta os maiores enxadristas do mundo. Seu maior desejo é de se tornar a número 1 do mundo.
-                        Estrelando:Anya Taylor-Joy,Bill Camp,Marielle Heller
-                        Criação:Scott Frank,Allan Scott 
+                
+                       <span class="elenco">
+                            Estrelando: Anya Taylor-Joy,Bill Camp,Marielle Heller
+                            Criação:Scott Frank,Allan Scott 
+                        </span> 
                     </p>
                 </div>
                 <div  >
@@ -46,6 +52,16 @@
             </div>
         </main>
 
+        <!-- carrossel de filmes -->
+        <div class="carrossel-filmes">
+            <div id="owl-demo" class="owl-carousel owl-theme">
+            </div> 
+        </div>
+
         <script src="https://kit.fontawesome.com/bc373ac969.js" crossorigin="anonymous"></script>
+        <script src="./js/owl/jquery.min.js"></script>
+        <script src="./js/owl/owl.carousel.js"></script>
+        <script src="./js/owl/setup.js"></script>
     </body>
+
 </html>

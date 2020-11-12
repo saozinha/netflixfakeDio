@@ -1,0 +1,32 @@
+{
+    "items" : [
+      {
+        "img": "/js/owl/assets/mini1.png",
+        "alt" : "mini Image 1"
+      },
+      {
+        "img": "/js/owl/assets/mini2.png",
+        "alt" : "mini Image 2"
+      },
+      {
+        "img": "/js/owl/assets/mini3.png",
+        "alt" : "mini Image 1"
+      },
+      {
+        "img": "/js/owl/assets/mini4.png",
+        "alt" : "mini Image 2"
+      },
+      {
+        "img": "/js/owl/assets/mini5.png",
+        "alt" : "mini Image 1"
+      },
+      {
+        "img": "/js/owl/assets/mini6.png",
+        "alt" : "mini Image 2"
+      },
+      {
+        "img": "/js/owl/assets/mini7.png",
+        "alt" : "mini Image 2"
+      }
+    ]
+  }

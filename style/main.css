@@ -51,16 +51,25 @@ header nav a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50) 100%), url('./img/gambito-da-rainha.png');
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50) 100%), url('../img/gambito-da-rainha.png');
     background-size: cover;
-    font-size: 16px;
+    font-size: 18px;
     height: 450px;
 }
 
 
 .filme-principal .descricao { 
+    display: flex; 
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 10px; 
     margin-bottom: 90px;
 }
+
+.descricao .elenco { 
+    margin-top: 10px; 
+}
+
 
 .buttons {
     background-color: rgba(0,0,0,.50);
@@ -81,4 +90,53 @@ header nav a:hover {
 
 .buttons i {
     margin-right:  10px;;
+}
+
+.container {
+    margin-left: 20px;
+}
+
+.filme-principal .container { 
+    width: 90%;
+}
+
+.carrossel-filmes { 
+    margin-top: 3px;  
+}
+
+#owl-demo .item {
+    background: #050c0f;
+    padding: 30px 0px;
+    display: block;
+    margin: 20px;
+    color: #FFF;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-align: center;
+  }
+
+  /*  Media Queries */
+
+@media (max-width: 1024px) {
+    .container {
+        width: 90%;
+    }
+}
+
+
+@media (max-width: 650px) {
+    body {
+        background-color: #ffffff;
+    }
+    .container {
+        width: 90%;
+    }
+ 
+    .carrossel-filmes {
+        width: 100%;
+    }
+    #owl-demo {
+        border: 1px solid transparent;
+    }
 }
