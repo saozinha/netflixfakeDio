@@ -1,8 +1,22 @@
-$(document).ready(function() {
+ 
  
     $("#owl-demo").owlCarousel({
       jsonPath : 'js/owl/json/custom.json',
-      jsonSuccess : customDataSuccess
+      jsonSuccess : customDataSuccess,
+      loop:true,
+      margin:10,
+      nav:true,
+      responsive: {
+          0: {
+              items:1
+          },
+          600: {
+            items:3
+          },
+          1000: {
+              items:5
+          }
+      }
     });
    
     function customDataSuccess(data){
@@ -16,5 +30,4 @@ $(document).ready(function() {
       }
       $("#owl-demo").html(content);
     }
-   
-  }); 
+    
