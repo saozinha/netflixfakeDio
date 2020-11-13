@@ -3,15 +3,14 @@
     $("#owl-demo").owlCarousel({
       jsonPath : 'js/owl/json/custom.json',
       jsonSuccess : customDataSuccess,
-      loop:true,
-      margin:10,
-      nav:true,
+      loop:true,  
+      rtl:true,
       responsive: {
           0: {
-              items:1
+              items:3
           },
           600: {
-            items:3
+            items:4
           },
           1000: {
               items:5
@@ -28,6 +27,6 @@
    
          content += "<img src=\"" +img+ "\" alt=\"" +alt+ "\">"
       }
-      $("#owl-demo").html(content);
+      $("#owl-demo ").html(content);
     }
     

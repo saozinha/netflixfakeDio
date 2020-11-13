@@ -1,7 +1,7 @@
 {
     "items" : [
       {
-        "img": "/js/owl/assets/mini1.png",
+        "img": "/js/owl/assets/mini0.png",
         "alt" : "mini Image 1"
       },
       {
@@ -10,23 +10,43 @@
       },
       {
         "img": "/js/owl/assets/mini3.png",
-        "alt" : "mini Image 1"
+        "alt" : "mini Image 3"
       },
       {
         "img": "/js/owl/assets/mini4.png",
-        "alt" : "mini Image 2"
+        "alt" : "mini Image 4"
       },
       {
         "img": "/js/owl/assets/mini5.png",
-        "alt" : "mini Image 1"
+        "alt" : "mini Image 5"
       },
       {
         "img": "/js/owl/assets/mini6.png",
-        "alt" : "mini Image 2"
+        "alt" : "mini Image 6"
       },
       {
         "img": "/js/owl/assets/mini7.png",
-        "alt" : "mini Image 2"
+        "alt" : "mini Image 7"
+      },
+      {
+        "img": "/js/owl/assets/mini8.png",
+        "alt" : "mini Image 8"
+      },
+      {
+        "img": "/js/owl/assets/mini9.png",
+        "alt" : "mini Image 9"
+      },
+      {
+        "img": "/js/owl/assets/mini10.png",
+        "alt" : "mini Image 10"
+      },
+      {
+        "img": "/js/owl/assets/mini11.png",
+        "alt" : "mini Image 11"
+      },
+      {
+        "img": "/js/owl/assets/mini12.png",
+        "alt" : "mini Image 12"
       }
     ]
   }
